@@ -31,11 +31,8 @@ public class Turtle extends Entity {
                     --xcor;
                 }
                 break;
-
-
         }
         ++score;
     }
-
 }
 
