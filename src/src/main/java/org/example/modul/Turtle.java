@@ -9,7 +9,7 @@ public class Turtle extends Entity {
     }
     @Override
     public void move() {
-        int derection = (int) (Math.random() * 4);
+        int derection = (int) (Math.random() * 3);
         switch (derection) {
             case 0:
                 if (ycor > 0) {
@@ -21,12 +21,8 @@ public class Turtle extends Entity {
                     ++xcor;
                 }
                 break;
+
             case 2:
-                if (ycor < fheigth) {
-                    ++ycor;
-                }
-                break;
-            case 3:
                 if (xcor > 0) {
                     --xcor;
                 }

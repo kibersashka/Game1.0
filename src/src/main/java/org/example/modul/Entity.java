@@ -26,6 +26,7 @@ public class Entity {
     }
 
     public void move() {
+
     }
 
     public int getXcor() {
