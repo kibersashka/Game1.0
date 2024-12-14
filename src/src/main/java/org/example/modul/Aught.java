@@ -14,6 +14,6 @@ public class Aught extends Entity {
     public void move() {
         xcor = (int) (Math.random() * (101));
         ycor = (int) (Math.random() * (101));
-
+        ++score;
     }
 }
